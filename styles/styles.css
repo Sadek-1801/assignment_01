@@ -1,0 +1,128 @@
+/* shared styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.container {
+    width: 80%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.info {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* header related styles */
+.banner_one {
+    padding: 170px 350px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+    url('../Images/bgimg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    fill: ;
+}
+
+.banner_one h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.banner_one h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+/* offer related styles */
+.offer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px auto;
+}
+
+.offer-item h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer-desc {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-info {
+    text-align: center;
+}
+
+.offer-img {
+    margin-top: 48px;
+}
+
+/* invitation related styles */
+.invitation-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../Images/Vectorrr.png');
+    padding: 125px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+/* .invitation-item {
+    flex-grow: 0;
+} */
+
+.invitation-item h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.invitation-item p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.invitation-item button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: ;
+}
