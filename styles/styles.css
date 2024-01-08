@@ -4,13 +4,6 @@
     padding: 0;
 }
 
-/* .header-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-} */
-.container {}
-
 .banner {
     width: 82%;
     max-width: 1320px;
@@ -18,10 +11,32 @@
 }
 
 .info {
-    color: #070211;
+    
+}
+
+.offer-title {
+    color: #F00;
     font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.headerThree {
+    color: #070211;
+    font-family: Merriweather;
     font-size: 48px;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.paraText {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 /* header related styles */
@@ -81,6 +96,10 @@
 
 .offer-info {
     text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .offer-img {
@@ -116,9 +135,6 @@
 
 .invitation-item p {
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
     margin-bottom: 48px;
 }
 
@@ -132,6 +148,7 @@
     background-color: transparent;
     border: none;
     margin-left: 32px;
+    cursor: pointer;
 }
 
 /* events related styles */
@@ -141,7 +158,7 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    padding: 110px 380px;
+    padding: 110px;
     flex-direction: column;
 }
 
@@ -152,6 +169,15 @@
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
+}
+
+.events {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    /* 175% */
+    text-transform: capitalize;
 }
 
 .btn {
@@ -165,6 +191,36 @@
     text-transform: uppercase;
     margin-top: 64px;
     padding: 16px 32px;
+    cursor: pointer;
+}
+
+/* bonus section styles */
+.discount-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.discount-item {
+    flex: 1;
+}
+
+.discount-item h3 {
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.discount-item .discount-img {
+    padding: 20px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.discount-item h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 /* portfolio section styles */
@@ -180,36 +236,24 @@
 }
 
 .portfolio-desc h5 {
-    color: #F00;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .portfolio-desc h3 {
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
+    margin-bottom: 22px;
 }
 
 .portfolio-desc p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
+    margin-bottom: 48px;
 }
 
 .portfolio-image {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    
+
 }
+
 .portfolio-image img {
     transition: transform 0.2s ease-in-out;
 }
@@ -220,3 +264,110 @@
 
 /* newsletter container styles */
 
+.newsletter-container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 80px 220px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsletter-text {
+    text-align: center;
+}
+
+.email-icon img {
+    width: 150px;
+    height: 150px;
+}
+
+.newsletter-title h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.newsletter-form {
+    max-width: 700px;
+    display: flex;
+    margin-top: 48px;
+    border-radius: 50px;
+    justify-content: center;
+}
+.newsletter-form input {
+    flex-grow: 1;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #FFF;
+    padding: 24px;
+    outline: none;
+}
+
+.newsletter-form button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 24px;
+    cursor: pointer;
+    border: 0px;
+}
+
+/* footer related styles */
+
+.footer-container {
+    background-color: #070211;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 120px 140px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    gap: 50px;
+}
+
+.footer-desc-one,
+.footer-desc-three {
+    display: flex;
+}
+
+.address,
+.user-rights {
+    flex-grow: 1;
+}
+
+.cell,
+.website {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+hr {
+    border: 1px solid #fff;
+}
+
+.footer-desc-two {
+    margin: 0 auto;
+
+}
+
+.footer-desc-two img {
+    margin-right: 10px;
+}
