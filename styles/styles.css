@@ -10,9 +10,7 @@
     margin: 0 auto 120px;
 }
 
-.info {
-    
-}
+.info {}
 
 .offer-title {
     color: #F00;
@@ -223,6 +221,67 @@
     font-weight: 700;
 }
 
+/* holidays section styles */
+.banner-text {
+    text-align: center;
+    width: 80%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+#holidays-sec .banner-text h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#holidays-sec .banner-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+#holidays-sec .banner-text h1 span {
+    color: #F00;
+}
+#holidays-sec .banner-img {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-height: 750px;
+    position: relative;
+    
+}
+#holidays-sec .img-1 {
+    grid-column: 1/span 4;
+    grid-row: 1/span 2;
+    position: absolute;
+    top: 20px;
+    max-height: 50%;
+    background-color: ;
+}
+#holidays-sec .img-2 {
+   grid-column: 5/span 2;
+   grid-row: 1/span 2;
+   position: relative;
+}
+.rect-img .discount {
+    position: absolute;
+    right: 230px;
+    bottom: 10px;
+}
+#holidays-sec .img-3 {
+    grid-column: 1/span 6;
+    grid-row: 3/span 1;
+}
+#holidays-sec .banner-img img {
+    height: 100%;
+    width: 100%;
+}
+
 /* portfolio section styles */
 .portfolio-container {
     display: flex;
@@ -293,6 +352,7 @@
     line-height: normal;
     text-transform: capitalize;
 }
+
 .newsletter-form {
     max-width: 700px;
     display: flex;
@@ -300,6 +360,7 @@
     border-radius: 50px;
     justify-content: center;
 }
+
 .newsletter-form input {
     flex-grow: 1;
     border: none;
